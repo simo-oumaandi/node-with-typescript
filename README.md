@@ -1,5 +1,5 @@
 # NODE.JS APP WITH TYPESCRIPT USING NODE-TS
-## A Simple Node.js Express.js Application Using Typescript With Module ``` node-ts ```
+## A Simple Node.js Express.js Application Using Typescript With Module ``` ts-node ```
 
 ## dependencies 
 
@@ -17,7 +17,7 @@
 | Typescript                | 4.4.4       |
 | Ts-node                   | 10.4.0      |
 | Nodemon                   | 2.0.15      |
-| @types/nod                | 16.11.7     |
+| @types/node               | 16.11.7     |
 | @types/express            | 4.17.13     |
 
 ## Scripts
