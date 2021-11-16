@@ -1,0 +1,35 @@
+{
+  "name": "node-with-typescript",
+  "version": "1.0.0",
+  "description": "Setup node.js and express.js with typescript using ts-node module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "ts-node",
+    "node",
+    "typescript",
+    "node.js",
+    "typescript",
+    "express",
+    "typescript"
+  ],
+  "author": "Mohamed Oumaandi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.7",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
